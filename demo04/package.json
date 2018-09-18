@@ -1,0 +1,19 @@
+{
+  "name": "dora",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "entry": {
+    "index": "./src/index.js",
+    "jquery": ["jquery"]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "atool-build": "^1.0.2",
+    "jquery": "^3.2.1"
+  }
+}

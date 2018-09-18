@@ -1,0 +1,27 @@
+{
+  "name": "dora",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "entry": {
+    "index": "./src/index.js",
+    "jquery": [
+      "jquery"
+    ]
+  },
+  "scripts": {
+    "start": "dora --plugins webpack,proxy,livereload",
+    "build": "atool-build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "atool-build": "^1.0.2",
+    "dora": "^0.5.0",
+    "dora-plugin-livereload": "^0.6.0",
+    "dora-plugin-proxy": "^0.8.5",
+    "dora-plugin-webpack": "^1.0.0",
+    "jquery": "^3.2.1"
+  }
+}

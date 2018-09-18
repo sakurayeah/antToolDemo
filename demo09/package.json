@@ -1,0 +1,26 @@
+{
+  "name": "dora",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/index",
+  "entry": {
+    "index": "./index"
+  },
+  "scripts": {
+    "compile": "rm -rf lib && babel src --out-dir lib",
+    "build": "atool-build",
+    "lint": "eslint --ext .js src",
+    "test": "atool-test",
+    "doc": "atool-doc",
+    "doc-build": "atool-doc --build",
+    "gh-pages": "atool-doc --build && gh-pages -d __site"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "atool-build": "^1.0.2",
+    "atool-doc": "^0.9.1",
+    "atool-test": "^0.5.5",
+    "babel-cli": "^6.26.0"
+  }
+}
